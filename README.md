@@ -11,6 +11,6 @@ For more information on how to this works with other frontends/backends, head ov
 
 ### Screenshots
 
-Current look
+Current look<br/>
 <img src="demo_1.jpg"/> <img src="demo_2.jpg"/><br/>
 <i>(very early demo version)</i>
