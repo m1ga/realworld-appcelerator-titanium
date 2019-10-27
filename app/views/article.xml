@@ -1,0 +1,6 @@
+<Alloy>
+	<Window onOpen="onOpen">
+		<Label id="lbl_title"/>
+		<Label id="lbl_text"/>
+	</Window>
+</Alloy>

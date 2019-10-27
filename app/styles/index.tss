@@ -1,0 +1,25 @@
+"#lst_articles" : {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+}
+
+".title":{
+	left: 5,
+	top: 5,
+	right: 40,
+	font:{
+		fontWeight: "bold"
+	}
+}
+
+".author": {
+	left: 5,
+	top: 20,
+	right: 40
+}
+
+".authorImage": {
+	right: 5,
+	height: 30,
+	width: 30
+}

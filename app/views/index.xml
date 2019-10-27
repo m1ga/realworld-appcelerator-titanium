@@ -1,0 +1,16 @@
+<Alloy>
+	<NavigationWindow id="navWindow">
+		<Window onOpen="onOpen">
+			<ListView id="lst_articles" defaultItemTemplate="default" onItemclick="onClickItem">
+				<Templates>
+					<ItemTemplate name="default">
+						<Label bindId="title" class="title"/>
+						<Label bindId="author" class="author"/>
+						<ImageView bindId="authorImage" class="authorImage"/>
+					</ItemTemplate>
+				</Templates>
+				<ListSection/>
+			</ListView>
+		</Window>
+	</NavigationWindow>
+</Alloy>
