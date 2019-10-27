@@ -9,19 +9,28 @@ function onOpen(e) {
 
 		var listData = [];
 		_.each(data.articles, function(item) {
+
+			var d = new Date(item.createdAt);
+
 			listData.push({
 				title: {
 					text: item.title,
 				},
+				description: {
+					text: item.description,
+				},
 				author: {
 					text: "by " + item.author.username,
+				},
+				date: {
+					text: d.getDate() + "." + (d.getMonth() + 1) + "."
 				},
 				authorImage: {
 					image: item.author.image
 				},
 				properties: {
 					slug: item.slug,
-					height: 40
+					height: Ti.UI.SIZE
 				}
 			})
 		})

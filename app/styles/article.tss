@@ -1,3 +1,51 @@
-"Window":{
-	layout:'vertical'
+"#img_author" : {
+	width: 40,
+	height: 40,
+	borderRadius: 20
+}
+"#view_main" : {
+	layout: 'vertical'
+}
+".left" : {
+	left: 10
+}
+"#view_author" : {
+	layout: 'horizontal',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	bottom: 20,
+	top: 20
+}
+"#lbl_author" : {
+	font: {
+		fontSize: 12
+	}
+}
+"#lbl_title" : {
+	font: {
+		fontSize: 20,
+		fontWeight: "bold"
+	},
+	bottom: 10,
+	top: 10,
+	height: Ti.UI.SIZE
+}
+"#lbl_description" : {
+	bottom: 10
+}
+"#view_author_text" : {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: 'vertical',
+	left: 10
+}
+"#lbl_date" : {
+	left: 0,
+	font: {
+		fontSize: 12
+	}
+}
+
+".darkGrey": {
+	color: "#999"
 }

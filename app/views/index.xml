@@ -4,9 +4,16 @@
 			<ListView id="lst_articles" defaultItemTemplate="default" onItemclick="onClickItem">
 				<Templates>
 					<ItemTemplate name="default">
-						<Label bindId="title" class="title"/>
-						<Label bindId="author" class="author"/>
+						<View class="view_content">
+							<View class="view_text">
+								<Label bindId="title" class="title"/>
+								<Label bindId="description" class="description"/>
+							</View>
+							<Label bindId="author" class="author"/>
+							<Label bindId="date" class="date"/>
+						</View>
 						<ImageView bindId="authorImage" class="authorImage"/>
+						<View class="view_line_bottom"/>
 					</ItemTemplate>
 				</Templates>
 				<ListSection/>

@@ -1,6 +1,16 @@
 <Alloy>
 	<Window onOpen="onOpen">
-		<Label id="lbl_title"/>
-		<Label id="lbl_text"/>
+		<ScrollView id="view_main">
+			<Label id="lbl_title" class="left"/>
+			<Label id="lbl_description" class="left darkGrey"/>
+			<View id="view_author" class="left">
+				<ImageView id="img_author"/>
+				<View id="view_author_text">
+					<Label id="lbl_author"/>
+					<Label id="lbl_date" class="darkGrey"/>
+				</View>
+			</View>
+			<Label id="lbl_text" class="left"/>
+		</ScrollView>
 	</Window>
 </Alloy>

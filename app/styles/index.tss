@@ -2,24 +2,59 @@
 	width: Ti.UI.FILL,
 	height: Ti.UI.FILL
 }
-
-".title":{
-	left: 5,
-	top: 5,
-	right: 40,
-	font:{
-		fontWeight: "bold"
+".view_text" : {
+	layout: 'vertical',
+	left: 0,
+	width: Ti.UI.FILL,
+	top: 0,
+	height: Ti.UI.SIZE
+}
+".title" : {
+	width: Ti.UI.FILL,
+	maxLines: 2,
+	font: {
+		fontWeight: "bold",
+		fontSize: 20
 	}
 }
-
-".author": {
-	left: 5,
-	top: 20,
-	right: 40
+".description" : {
+	width: Ti.UI.FILL,
+	maxLines: 1,
+	color: "#999",
+	font: {
+		fontSize: 12
+	}
 }
-
-".authorImage": {
+".author" : {
+	left: 0,
+	top: 10,
+	font: {
+		fontSize: 12
+	}
+}
+".authorImage" : {
 	right: 5,
 	height: 30,
 	width: 30
+}
+".view_content" : {
+	layout: 'vertical',
+	height: Ti.UI.SIZE,
+	left: 15,
+	right: 40,
+	top: 15,
+	bottom: 15
+}
+".date" : {
+	left: 0,
+	color: "#999",
+	font: {
+		fontSize: 12
+	}
+}
+".view_line_bottom" : {
+	backgroundColor: "#DDD",
+	bottom: 0,
+	width: Ti.UI.FILL,
+	height: 1
 }
